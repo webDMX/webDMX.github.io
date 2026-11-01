@@ -1,5 +1,13 @@
 @import "{{ site.theme }}";
 
+header {
+  display: none;
+}
+
+.page-heading {
+  display: none;
+}
+
 .repo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
