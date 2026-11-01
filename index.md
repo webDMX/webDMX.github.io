@@ -1,4 +1,8 @@
-# Welcome to webDMX on GitHub!
+---
+layout: home
+title: Welcome to webDMX on GitHub!
+---
+
 <img align="right" width="100" src="https://avatars.githubusercontent.com/u/184787984" alt="webDMX Logo">
 On GitHub we host all open source code for the <a href="https://webdmx.com">webDMX</a> project.<br />
 <br />
