@@ -1,7 +1,7 @@
 title: webDMX GitHub
 description: Open source code for webDMX on GitHub
 url: "https://webdmx.github.io"
-remote_theme: jekyll/minima@v3.0.0
+remote_theme: jekyll/minima@4de3223
 plugins:
   - jekyll-remote-theme
 
