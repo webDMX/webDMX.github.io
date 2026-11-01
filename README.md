@@ -1,2 +1,2 @@
-# Welcome to webDMX on GitHub!
-On GitHub we host all open source code for the [webDMX](https://webdmx.com) project.
+# webDMX.github.io
+This repository contains the source code and configuration for the webDMX GitHub Pages website.
