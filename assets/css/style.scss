@@ -5,9 +5,7 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-header {
-  display: none;
-}
+/* repository list */
 
 .repo-grid {
   display: grid;
