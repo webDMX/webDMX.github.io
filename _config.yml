@@ -1,3 +1,8 @@
-theme: jekyll-theme-minimal
 title: webDMX GitHub
 description: Open source code for webDMX on GitHub
+url: "https://webdmx.github.io"
+theme: minima
+
+# Minima configuration
+minima:
+  skin: auto
