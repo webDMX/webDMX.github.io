@@ -15,7 +15,7 @@ On GitHub we host all open source code for the <a href="https://webdmx.com">webD
 <script>
 const organization = "webDMX";
 
-fetch(`https://api.github.com/orgs/${organization}/repos?per_page=100&type=public&sort=full_name`)
+fetch(`https://api.github.com/orgs/${organization}/repos?per_page=100&type=public&sort=pushed&direction=desc`)
   .then(response => {
     if (!response.ok) throw new Error(`GitHub API error: ${response.status}`);
     return response.json();
@@ -44,7 +44,7 @@ fetch(`https://api.github.com/orgs/${organization}/repos?per_page=100&type=publi
   
         const info = document.createElement("small");
         info.textContent =
-          `${repo.language || "Unknown"} · ⭐ ${repo.stargazers_count}`;
+          `⭐ ${repo.stargazers_count} · Top language: ${repo.language || "unknown"}`;
   
         card.append(title, description, info);
         container.appendChild(card);
